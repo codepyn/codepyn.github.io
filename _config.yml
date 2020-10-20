@@ -1,17 +1,23 @@
-theme: jekyll-theme-minimal
-# 个人名称或昵称
-name: xiaoxiao
-# 页面个人头像信息中地址展示信息
-location: 大连
-# 页面个人头像信息中公司展示信息
-company: IBM
-# 页面个人头像信息中职位展示信息
-position: Java开发工程师
-# 页面个人头像信息中GITHUB展示信息
-github: https://github.com/XXXX
-# 页面个人头像信息中Facebook展示信息
-facebook: https://www.facebook.com/XXXX
-# 页面个人头像信息中电话展示信息
-phone: 1580424XXXX
-# 页面个人头像信息中EMAIL展示信息
-email: xxxx@xxx.com
+# Site settings
+title: HyG
+email: gaohaoyang126@126.com
+description: 浩阳的博客 前端爱好者
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  Gaohaoyang
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
