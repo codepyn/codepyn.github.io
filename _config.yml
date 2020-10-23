@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Site Settings
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
@@ -85,6 +86,24 @@ toc: true
 
 paginate: 10
 
+=======
+# Site settings
+title: SLJ
+email: gaohaoyang126@126.com
+description: 浩阳的博客 前端爱好者
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  Gaohaoyang
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+>>>>>>> 3a089bf93a8cca8d8f2dd3c4c613185d4da684ad
 markdown: kramdown
 
 highlighter: rouge
